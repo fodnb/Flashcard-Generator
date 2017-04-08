@@ -23,7 +23,7 @@ cC.prototype = {
         if (this.parText === a) {
             console.log("You're close deletion doesn't work");
         } else {
-            fs.appendFile("cC.txt", a + "," + b + "," + this.parText2 + ",", function(err) {
+            fs.appendFile("cC.txt", a + "," + b + "," + this.parText + ",", function(err) {
                 if (err) {
                     console.log(err);
                 }

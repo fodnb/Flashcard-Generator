@@ -2,7 +2,7 @@ var clozeCard = function(text, cloze){
 
 	this.text = text;
 	this.cloze = cloze;
-	this.parText = text.replace(cloze, "");
+	this.parText = text.replace(cloze, "...");
 	this.parText2 = "..." + this.parText;
 	this.clozeOnly = function(){
 		console.log(cloze);
